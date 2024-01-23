@@ -1,20 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
 }
 
 body {
-  font-size: 62.5%;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 
-  background-color: #ECE9FD;
+  background-color: #ece9fd;
 
-  min-width: 320px;
   margin: 0 auto;
 }
 
 p {
-  color: #7158EF;
+  color: #7158ef;
 
   font-size: 1.6rem;
   font-weight: 400;
@@ -22,27 +21,36 @@ p {
   letter-spacing: 3px;
   text-transform: uppercase;
 
-  margin-top: 6rem;
-  margin-left: 2.3rem;
-  margin-right: 2.3rem;
+  margin: 6rem 2.3rem 1.7rem;
 
-  width: 32.9rem;
-  height: 14.4rem;
+  width: 17.5rem;
   flex-shrink: 0;
 }
 
 h1 {
-  color:#090039;
+  color: #090039;
 
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
-  line-height: 4.8rem;
+  line-height: 4rem;
 
-  margin-left: 2.3rem;
+  margin: 0 2.3rem 0;
 
-  width: 32.9rem;
-  height: 14.4rem;
+  min-width: 27rem;
   flex-shrink: 0;
 }
 
+h3 {
+  width: 26rem;
+  height: 13rem;
+  flex-shrink: 0;
 
+  margin: 1.5rem 2.3rem 3.2rem;
+
+  color: rgba(10, 0, 57, 0.64);
+  
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
